@@ -7,6 +7,10 @@ h1{
     margin-left: auto;
     font-family: 'Franklin Gothic Medium';
 }
+body{
+    max-width: 1280px;
+    margin: auto;
+}
 header{
     display:inline-flex;
     justify-content: space-around;
@@ -65,28 +69,25 @@ nav a{
     align-items: left ;
     width: 30%;
 }
-#rs_school_logo{
-    display: block;
-    width: 30%;
-}
-#github{
-    display: block;
-    width: 10%;
-    border-style: none;
-}
+
 footer{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: rgb(150, 106, 150);
 }
 
 footer div{
     font-size: 24px;
     font-style: italic;
-    align-items: center;
-    display: inline-flex; 
-    text-align: center;
+    display:flex;
     background-color: rgb(150, 106, 150);
+}
+
+#rs_school_logo{
+    width: 30%;
+}
+#github{
+    width: 10%;
 }
 div.english_level img{
     width: 30%;
