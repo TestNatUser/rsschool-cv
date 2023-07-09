@@ -1,0 +1,102 @@
+h1{
+    color: black;
+    font-size: 36px;
+    padding-top: 100px;
+    text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Franklin Gothic Medium';
+}
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+    display:inline-flex;
+    justify-content: space-around;
+    background-color: rgb(150, 106, 150);
+}
+main{
+    background-color: rgb(206, 181, 206);
+    color: black;
+    font-size: 20x;
+    font-family: 'Papyrus';
+    
+}
+main div{
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: flex;
+}
+
+h2{
+    text-align: center;
+    font-size: 27px;
+    color: black;
+}
+nav{
+    background-color: black;
+    color:wheat;
+}
+nav ul{
+    display: flex;
+    color: wheat;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: center;
+}
+nav li a:hover {
+    background-color: rgb(150, 106, 150);
+    color:black;
+  }
+ 
+nav a{
+    font-size: 20px;
+    font-family: Verdana;
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+}
+
+#profile_photo{
+    border-radius: 50%;
+    align-items: left ;
+    width: 30%;
+}
+
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(150, 106, 150);
+}
+
+footer div{
+    font-size: 24px;
+    font-style: italic;
+    display:flex;
+    background-color: rgb(150, 106, 150);
+}
+
+#rs_school_logo{
+    width: 30%;
+}
+#github{
+    width: 10%;
+}
+div.english_level img{
+    width: 30%;
+    margin-left: auto;
+  margin-right: auto;
+  display: inline-flex;
+  
+}
+pre{
+    font-size: 10px;
+    font-family: Verdana,cursive; 
+}
