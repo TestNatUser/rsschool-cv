@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 h1{
     color: black;
     font-size: 36px;
@@ -21,7 +24,6 @@ main{
     color: black;
     font-size: 20x;
     font-family: 'Papyrus';
-    
 }
 main div{
     margin-right: 25px;
@@ -29,29 +31,40 @@ main div{
     text-align: flex;
 }
 
-h2{
+h2,#projects{
     text-align: center;
     font-size: 27px;
     color: black;
 }
+
 nav{
     background-color: black;
     color:wheat;
 }
-nav ul{
+nav ul,#prjects ul{
     display: flex;
     color: wheat;
     padding: 0;
     margin: 0;
 }
-nav li{
+nav li,#projects li{
     display: inline;
     list-style: none;
     margin-right: 25px;
     margin-left: 25px;
     text-align: center;
 }
-nav li a:hover {
+#projects li a{
+  font-size: 20px;
+  font-family: 'Papyrus';
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#projects li a:hover{
+  color:gray;
+}
+nav li a:hover{
     background-color: rgb(150, 106, 150);
     color:black;
   }
