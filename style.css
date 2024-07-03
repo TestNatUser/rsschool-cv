@@ -29,34 +29,35 @@ main div{
     text-align: flex;
 }
 
-h2{
+h2,#projects{
     text-align: center;
     font-size: 27px;
     color: black;
 }
+
 nav{
     background-color: black;
     color:wheat;
 }
-nav ul{
+nav ul,#prjects ul{
     display: flex;
     color: wheat;
     padding: 0;
     margin: 0;
 }
-nav li{
+nav li,#projects li{
     display: inline;
     list-style: none;
     margin-right: 25px;
     margin-left: 25px;
     text-align: center;
 }
-nav li a:hover {
+nav li a:hover,#projects li a:hover {
     background-color: rgb(150, 106, 150);
     color:black;
   }
  
-nav a{
+nav a,#projects a{
     font-size: 20px;
     font-family: Verdana;
     text-decoration: none;
